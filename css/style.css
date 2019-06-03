@@ -17,6 +17,16 @@ body, html {
   margin: 10px auto;
 }
 
+img {
+  box-sizing: border-box;
+  border: 2px solid #333;
+}
+
+ img:hover {
+  transition-duration: 1s;
+  transform: scale(1.05);
+}
+
 h4 {
   width: fit-content;
   display: inline-block;
